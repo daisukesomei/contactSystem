@@ -62,7 +62,7 @@ mysqli_free_result($result);
 
 if(isset($_POST['replyExac'])){
     if($_POST['message']==""){
-        $errMsg = "本文が未入力の為、お問い合わせは行えませんでした。";
+        $errMsg = "本文が未入力の為、メール返信は行えませんでした。";
         header("Location:./error.php?errMsg={$errMsg}&path=contactList.php");
         exit;
     }

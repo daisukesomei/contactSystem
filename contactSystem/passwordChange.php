@@ -164,7 +164,6 @@ if (isset($_POST['changeExec'])) {
     <br>
 <?php }else {?>
 <div align="center">
-<br><br><br>
 <h4><?=$changeMsg?></h4><br>
 <a href="login.php">[ログイン画面へ戻る]</a>
 </div>
